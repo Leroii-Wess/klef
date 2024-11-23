@@ -167,6 +167,7 @@ import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import SpinnerMini from "../ui/SpinnerMini";
 import { Link } from "react-router-dom";
+import bg from "../images/Shape.png";
 
 const Login = () => {
   const [PasswordInputType, ToggleIcon] = usePasswordToggle();
@@ -214,7 +215,14 @@ const Login = () => {
 
   return (
     <div className="relative flex items-center justify-center min-h-screen bg-blue-500">
-      <div className="absolute inset-0 login-background"></div>
+      <div
+        className="absolute inset-0"
+        style={{
+          backgroundImage: `url(${bg})`,
+          backgroundSize: "cover",
+          backgroundPosition: "cover",
+        }}
+      ></div>
       <div className="z-10 bg-white p-20 rounded-2xl shadow-lg w-full max-w-2xl flex flex-col gap-4">
         <h2 className="text-4xl text-gray-700 font-bold mb-2 text-center">
           Login to Account

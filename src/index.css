@@ -92,13 +92,13 @@ button {
 }
 
 .hero-background {
-  background-image: url("/assets/dark-flower.jpg");
+  background-image: url("/src/images/dark-flower.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .login-background {
-  background-image: url("/assets/Shape.png");
+  background-image: url("/src/images/Shape.png");
   background-size: cover;
   background-position: center;
 }
