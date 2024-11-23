@@ -193,7 +193,7 @@ const Login = () => {
       try {
         await new Promise((resolve) => setTimeout(resolve, 3000)); // Simulating delay
 
-        const result = await handleSubmit({
+        await handleSubmit({
           data: {
             email: values.email,
             password: values.password,
