@@ -91,6 +91,18 @@ button {
   transition: all 0.3s;
 }
 
+.hero-background {
+  background-image: url("src/assets/dark-flower.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.login-background {
+  background-image: url("src/assets/Shape.png");
+  background-size: cover;
+  background-position: center;
+}
+
 *:disabled {
   cursor: not-allowed;
 }

@@ -214,9 +214,7 @@ const Login = () => {
 
   return (
     <div className="relative flex items-center justify-center min-h-screen bg-blue-500">
-      <div
-        className={`absolute inset-0 bg-cover bg-center bg-[url("src/assets/Shape.png")]`}
-      ></div>
+      <div className="absolute inset-0 login-background"></div>
       <div className="z-10 bg-white p-20 rounded-2xl shadow-lg w-full max-w-2xl flex flex-col gap-4">
         <h2 className="text-4xl text-gray-700 font-bold mb-2 text-center">
           Login to Account
